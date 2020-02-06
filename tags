@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/42b74d5d/
+Installation	README.md	/^## Installation$/;"	s
+License	README.md	/^## License$/;"	s
+Manual	README.md	/^### Manual$/;"	S
+Other plugins	README.md	/^## Other plugins$/;"	s
+Requirements	README.md	/^### Requirements$/;"	S
+Spotify plugin for tmux	README.md	/^# Spotify plugin for tmux$/;"	c
+Usage	README.md	/^## Usage$/;"	s
+With Tmux Plugin Manager	README.md	/^### With Tmux Plugin Manager$/;"	S
+is_linux	tmux-spotify.tmux	/^is_linux() {$/;"	f
+is_osx	tmux-spotify.tmux	/^is_osx() {$/;"	f
+main	tmux-spotify.tmux	/^main() {$/;"	f
+next_track	scripts/spotify_mac.sh	/^next_track() {$/;"	f
+next_track	scripts/spotify_ux.sh	/^next_track() {$/;"	f
+open_spotify	scripts/spotify_mac.sh	/^open_spotify() {$/;"	f
+open_spotify	scripts/spotify_ux.sh	/^open_spotify() {$/;"	f
+previous_track	scripts/spotify_mac.sh	/^previous_track() {$/;"	f
+previous_track	scripts/spotify_ux.sh	/^previous_track() {$/;"	f
+show_menu	scripts/spotify_mac.sh	/^show_menu() {$/;"	f
+show_menu	scripts/spotify_ux.sh	/^show_menu() {$/;"	f
+toggle_play_pause	scripts/spotify_mac.sh	/^toggle_play_pause() {$/;"	f
+toggle_play_pause	scripts/spotify_ux.sh	/^toggle_play_pause() {$/;"	f
+toggle_repeat	scripts/spotify_mac.sh	/^toggle_repeat() {$/;"	f
+toggle_repeat	scripts/spotify_ux.sh	/^toggle_repeat() {$/;"	f
+toggle_shuffle	scripts/spotify_mac.sh	/^toggle_shuffle() {$/;"	f
+toggle_shuffle	scripts/spotify_ux.sh	/^toggle_shuffle() {$/;"	f
