@@ -15,9 +15,9 @@ is_linux() {
 
 main() {
     if is_osx; then
-        $(tmux bind-key -T prefix s run -b "source $CURRENT_DIR/scripts/spotify_mac.sh && show_menu")
+        $(tmux bind-key -T prefix S run -b "source $CURRENT_DIR/scripts/spotify_mac.sh && show_menu")
     elif is_linux; then
-        $(tmux bind-key -T prefix s run -b "source $CURRENT_DIR/scripts/spotify_ux.sh && show_menu")
+        $(tmux bind-key -T prefix S run -b "source $CURRENT_DIR/scripts/spotify_ux.sh && show_menu")
     fi
 }
 
